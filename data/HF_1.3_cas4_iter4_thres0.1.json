@@ -1,0 +1,74 @@
+{
+  "references": {
+    "FCI": -4.546313003697622,
+    "UCCSD": -4.545299723034886,
+    "statevector": -4.45397098764555
+  },
+  "input": "N          2.78281       -0.31812       -0.00000\nC          1.56391        0.13386       -0.00000\nC          0.13567        0.65308       -0.00000\nH         -0.00845        1.29598       -0.90096\nH         -0.00845        1.29599        0.90095\nC         -0.91621       -0.51932        0.00001\nH         -0.75198       -1.15683       -0.89892\nH         -0.75198       -1.15681        0.89895\nC         -2.38242        0.02937        0.00001\nH         -3.10834       -0.81206        0.00001\nH         -2.56857        0.65277        0.90131\nH         -2.56857        0.65276       -0.90131\n",
+  "init_state": "OPENQASM 2.0;\ninclude \"qelib1.inc\";\nqreg q[6];\nx q[0];\nx q[3];\n",
+  "evolution_ops": [
+    [
+      "IIIXZY",
+      -0.25
+    ]
+  ],
+  "optimal_point": [
+    0.37097413333806895
+  ],
+  "eigenvalue_history": [
+    -4.45397098764555
+  ],
+  "cnots": 4,
+  "depth": 8,
+  "constants": {
+    "nuclear_repulsion_energy": -207.3788997300457,
+    "ProjectionTransformer": 4.430691304772534
+  },
+  "offset": -202.94820842527318,
+  "results": [
+    {
+      "eigenvalue": -4.524972342318291,
+      "metadata": [
+        {
+          "zne": {
+            "noise_amplification": {
+              "noise_amplifier": "<LocalFoldingAmplifier:{'gates_to_fold': None, 'noise_factor_relative_tolerance': 0.01, 'random_seed': None, 'sub_folding_option': 'from_first'}>",
+              "noise_factors": [
+                1,
+                3,
+                5,
+                7,
+                9
+              ],
+              "values": [
+                -4.291709229150911,
+                -3.9626463908533243,
+                -3.6324810033305903,
+                -3.576440179648411,
+                -3.51079753627654
+              ],
+              "variance": [
+                0.18359607715969506,
+                0.38770268894097704,
+                0.4464929072580246,
+                0.4690640741284962,
+                0.5071463836314598
+              ],
+              "shots": [
+                8192,
+                8192,
+                8192,
+                8192,
+                8192
+              ]
+            },
+            "extrapolation": {
+              "extrapolator": "QuadraticExtrapolator"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "iterations": 1
+}

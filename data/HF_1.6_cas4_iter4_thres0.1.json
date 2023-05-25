@@ -1,0 +1,80 @@
+{
+  "references": {
+    "FCI": -4.108561818329888,
+    "UCCSD": -4.105053392355865,
+    "statevector": -4.016252775381944
+  },
+  "input": "N          2.92345       -0.37028       -0.00000\nC          1.42327        0.18602       -0.00000\nC         -0.00497        0.70524       -0.00000\nH         -0.14909        1.34813       -0.90096\nH         -0.14909        1.34814        0.90095\nC         -1.05685       -0.46717        0.00001\nH         -0.89263       -1.10467       -0.89892\nH         -0.89262       -1.10466        0.89895\nC         -2.52306        0.08152        0.00001\nH         -3.24899       -0.75991        0.00001\nH         -2.70921        0.70492        0.90131\nH         -2.70921        0.70491       -0.90131\n",
+  "init_state": "OPENQASM 2.0;\ninclude \"qelib1.inc\";\nqreg q[6];\nx q[0];\nx q[3];\n",
+  "evolution_ops": [
+    [
+      "IIIXZY",
+      -0.25
+    ],
+    [
+      "XZYIII",
+      -0.25
+    ]
+  ],
+  "optimal_point": [
+    -0.002201632800458171,
+    0.37401535656405954
+  ],
+  "eigenvalue_history": [
+    -3.9709100122469043,
+    -4.016252775381944
+  ],
+  "cnots": 8,
+  "depth": 8,
+  "constants": {
+    "nuclear_repulsion_energy": -207.15635131645232,
+    "ProjectionTransformer": 3.924408558191796
+  },
+  "offset": -203.23194275826052,
+  "results": [
+    {
+      "eigenvalue": -3.9580448754424893,
+      "metadata": [
+        {
+          "zne": {
+            "noise_amplification": {
+              "noise_amplifier": "<LocalFoldingAmplifier:{'gates_to_fold': None, 'noise_factor_relative_tolerance': 0.01, 'random_seed': None, 'sub_folding_option': 'from_first'}>",
+              "noise_factors": [
+                1,
+                3,
+                5,
+                7,
+                9
+              ],
+              "values": [
+                -3.769734935946505,
+                -3.536179672320799,
+                -3.3028165828977545,
+                -3.2026351208776456,
+                -3.2224206909250497
+              ],
+              "variance": [
+                0.26325265097046124,
+                0.43642877425522175,
+                0.5028245718338481,
+                0.5244107113585076,
+                0.5545929646449598
+              ],
+              "shots": [
+                8192,
+                8192,
+                8192,
+                8192,
+                8192
+              ]
+            },
+            "extrapolation": {
+              "extrapolator": "QuadraticExtrapolator"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "iterations": 2
+}

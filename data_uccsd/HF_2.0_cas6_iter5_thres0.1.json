@@ -1,0 +1,169 @@
+{
+  "references": {
+    "FCI": -8.398516495493627,
+    "UCCSD": -8.379498851268691,
+    "statevector": -8.264583055135315
+  },
+  "input": "N          3.11097       -0.43981       -0.00000\nC          1.23575        0.25555       -0.00000\nC         -0.19249        0.77477       -0.00000\nH         -0.33662        1.41767       -0.90096\nH         -0.33661        1.41768        0.90095\nC         -1.24437       -0.39763        0.00001\nH         -1.08015       -1.03514       -0.89892\nH         -1.08015       -1.03513        0.89895\nC         -2.71058        0.15106        0.00001\nH         -3.43651       -0.69037        0.00001\nH         -2.89673        0.77446        0.90131\nH         -2.89674        0.77445       -0.90131\n",
+  "init_state": "OPENQASM 2.0;\ninclude \"qelib1.inc\";\nqreg q[10];\nx q[0];\nx q[2];\nx q[3];\nx q[4];\nx q[6];\n",
+  "evolution_ops": [
+    [
+      "ZXXZIIYXZI",
+      0.125
+    ],
+    [
+      "IYXZIZXXZI",
+      0.125
+    ],
+    [
+      "IYYIIIYXZI",
+      0.125
+    ],
+    [
+      "ZXYIIZXXZI",
+      -0.125
+    ],
+    [
+      "IYXZIIYYII",
+      0.125
+    ],
+    [
+      "ZXXZIZXYII",
+      -0.125
+    ],
+    [
+      "ZXYIIIYYII",
+      -0.125
+    ],
+    [
+      "IYYIIZXYII",
+      -0.125
+    ],
+    [
+      "IZXXZIIYXZ",
+      0.125
+    ],
+    [
+      "IIYXZIZXXZ",
+      0.125
+    ],
+    [
+      "IIYYIIIYXZ",
+      0.125
+    ],
+    [
+      "IZXYIIZXXZ",
+      -0.125
+    ],
+    [
+      "IIYXZIIYYI",
+      0.125
+    ],
+    [
+      "IZXXZIZXYI",
+      -0.125
+    ],
+    [
+      "IZXYIIIYYI",
+      -0.125
+    ],
+    [
+      "IIYYIIZXYI",
+      -0.125
+    ],
+    [
+      "XXXXXYXXXX",
+      -0.125
+    ],
+    [
+      "YXXXXXXXXX",
+      0.125
+    ],
+    [
+      "YXXXYYXXXX",
+      0.125
+    ],
+    [
+      "XXXXYXXXXX",
+      0.125
+    ],
+    [
+      "YXXXXYXXXY",
+      -0.125
+    ],
+    [
+      "XXXXXXXXXY",
+      -0.125
+    ],
+    [
+      "XXXXYYXXXY",
+      -0.125
+    ],
+    [
+      "YXXXYXXXXY",
+      0.125
+    ],
+    [
+      "ZXXZIIIYXZ",
+      0.125
+    ],
+    [
+      "IYXZIIZXXZ",
+      0.125
+    ],
+    [
+      "IYYIIIIYXZ",
+      0.125
+    ],
+    [
+      "ZXYIIIZXXZ",
+      -0.125
+    ],
+    [
+      "IYXZIIIYYI",
+      0.125
+    ],
+    [
+      "ZXXZIIZXYI",
+      -0.125
+    ],
+    [
+      "ZXYIIIIYYI",
+      -0.125
+    ],
+    [
+      "IYYIIIZXYI",
+      -0.125
+    ],
+    [
+      "IYXZIIIIII",
+      0.5
+    ],
+    [
+      "ZXYIIIIIII",
+      -0.5
+    ]
+  ],
+  "optimal_point": [
+    -0.43025056599722633,
+    -0.20070967803003553,
+    -0.10174256465882105,
+    0.2956483921031228,
+    0.4065049231625368
+  ],
+  "eigenvalue_history": [
+    -8.174401666315951,
+    -8.226053452274993,
+    -8.23036161666578,
+    -8.238574054899107,
+    -8.264583055135315
+  ],
+  "cnots": 392,
+  "iterations": 34,
+  "depth": 526,
+  "constants": {
+    "nuclear_repulsion_energy": -206.93097566037602,
+    "ProjectionTransformer": 8.11209612270941
+  },
+  "offset": -198.81887953766662
+}

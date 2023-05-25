@@ -1,0 +1,387 @@
+{
+  "references": {
+    "FCI": -5.799337649439635,
+    "UCCSD": -5.7993376453799375,
+    "statevector": -5.799332615039203,
+    "ibm_cairo LinearExtrapolator(1,3,5)": {
+      "mean": -5.697658413394352,
+      "stddev": 0.09992626727292878,
+      "nsamples": 10
+    },
+    "ibm_cairo LinearExtrapolator(1,3,5) full noisy vqe": -5.640632327104102
+  },
+  "input": "&FCI\nNORB=4,\nNELEC=4,\nMS2=0,\nORBSYM=1,\nISYM=1,\n&END\n   6.17243733474637013003e-01    1    1    1    1\n   4.09835000542122305232e-09    1    1    1    2\n   5.85007602733247363902e-07    1    1    1    3\n  -4.07181162741354738151e-07    1    1    1    4\n   5.47807727491954499222e-01    1    1    2    2\n   3.26042845655157443457e-03    1    1    2    3\n  -2.72508732820699820648e-03    1    1    2    4\n   1.71913780460705351016e-01    1    1    3    3\n  -2.38837595792544821194e-02    1    1    3    4\n   1.63160287532737174887e-01    1    1    4    4\n   3.17493326857115759632e-02    1    2    1    2\n  -8.23011171932828662981e-04    1    2    1    3\n   7.32038888005616373254e-04    1    2    1    4\n   1.45080915612957486659e-08    1    2    2    2\n   2.71619711410005825132e-07    1    2    2    3\n  -1.81098801232429432677e-07    1    2    2    4\n   2.63972087997205536901e-08    1    2    3    3\n  -4.28846061436333918834e-09    1    2    3    4\n   2.54601839049997460420e-08    1    2    4    4\n   1.32401211788788788180e-03    1    3    1    3\n  -1.03026479300790535509e-03    1    3    1    4\n   1.47552963810189111717e-06    1    3    2    2\n   1.88371807263453632604e-08    1    3    2    3\n  -1.37210601739767492791e-08    1    3    2    4\n  -2.70366952864177277442e-07    1    3    3    3\n   3.16580392964022265079e-08    1    3    3    4\n  -3.17063297010355246147e-07    1    3    4    4\n   8.74598215641434048248e-04    1    4    1    4\n  -9.90084762305243620291e-07    1    4    2    2\n  -1.29031050189533483783e-08    1    4    2    3\n   9.79424172228790432786e-09    1    4    2    4\n   1.47528703879907042079e-07    1    4    3    3\n  -2.25300945016915803089e-08    1    4    3    4\n   2.01135825392023268249e-07    1    4    4    4\n   3.17493326857116175965e-02    2    1    2    1\n   1.45080915612554914398e-08    2    1    2    2\n   2.71619711410039653510e-07    2    1    2    3\n  -1.81098801232435944242e-07    2    1    2    4\n   2.63972087991102664516e-08    2    1    3    3\n  -4.28846061433284600223e-09    2    1    3    4\n   2.54601839049751820865e-08    2    1    4    4\n   8.44253227871749611921e-01    2    2    2    2\n   6.71935725667970832481e-03    2    2    2    3\n  -5.07421709074207510221e-03    2    2    2    4\n   1.47835696115117903870e-01    2    2    3    3\n  -1.98466112706194505733e-02    2    2    3    4\n   1.37662512867485847812e-01    2    2    4    4\n   2.03553537470465987017e-03    2    3    2    3\n  -1.15093719222687882603e-03    2    3    2    4\n  -1.31232807782416722488e-03    2    3    3    3\n   1.07392223760891100323e-04    2    3    3    4\n  -1.38132846872032733453e-03    2    3    4    4\n   6.73455432368223793141e-04    2    4    2    4\n   8.68936346854993894341e-04    2    4    3    3\n  -3.04068708819709351550e-05    2    4    3    4\n   1.38175327005507150857e-03    2    4    4    4\n   1.32401211788788679760e-03    3    1    3    1\n   1.88371807263942893392e-08    3    1    3    2\n  -2.70366952863616329873e-07    3    1    3    3\n   3.16580392959833687154e-08    3    1    3    4\n  -3.17063297011267077114e-07    3    1    4    4\n   2.03553537470465856912e-03    3    2    3    2\n  -1.31232807782417199537e-03    3    2    3    3\n   1.07392223760896697517e-04    3    2    3    4\n  -1.38132846872034771753e-03    3    2    4    4\n   3.73106871999560496533e-01    3    3    3    3\n   6.15528349776501681329e-03    3    3    3    4\n   3.85251245652004081776e-01    3    3    4    4\n   2.22578442308950623374e-02    3    4    3    4\n   3.33806216000034905456e-03    3    4    4    4\n   8.74598215641432638785e-04    4    1    4    1\n   9.79424172208167331190e-09    4    1    4    2\n  -2.25300945013066038344e-08    4    1    4    3\n   2.01135825391151247830e-07    4    1    4    4\n   6.73455432368228672051e-04    4    2    4    2\n  -3.04068708819791005526e-05    4    2    4    3\n   1.38175327005510685356e-03    4    2    4    4\n   2.22578442308950658068e-02    4    3    4    3\n   3.33806216000057630333e-03    4    3    4    4\n   5.43848399905774382290e-01    4    4    4    4\n  -2.32257071511049817403e+00    1    1    0    0\n  -1.86064415666623579454e-08    1    2    0    0\n  -3.26444716752921022985e-06    1    3    0    0\n   2.20625188611967994377e-06    1    4    0    0\n  -1.86064415666720392673e-08    2    1    0    0\n  -2.37171019538049598907e+00    2    2    0    0\n  -1.40632253417156266595e-02    2    3    0    0\n   1.12564306351616884305e-02    2    4    0    0\n  -3.26444716752872953866e-06    3    1    0    0\n  -1.40632253417156613540e-02    3    2    0    0\n  -2.42899325948629507543e-01    3    3    0    0\n   8.52795397145130334993e-02    3    4    0    0\n   2.20625188612090094176e-06    4    1    0    0\n   1.12564306351616971041e-02    4    2    0    0\n   8.52795397145129224770e-02    4    3    0    0\n  -1.88837854210425676316e-01    4    4    0    0\n   1.62254730656001015632e+02    0    0    0    0\n",
+  "init_state": "OPENQASM 2.0;\ninclude \"qelib1.inc\";\nqreg q[6];\nx q[0];\nx q[3];\n",
+  "evolution_ops": [
+    [
+      "ZXZIYZ",
+      0.125
+    ]
+  ],
+  "optimal_point": [
+    0.0
+  ],
+  "eigenvalue_history": [
+    -5.799332615039203
+  ],
+  "cnots": 8,
+  "depth": 11,
+  "constants": {
+    "hf_in_pbe": -207.224453532253,
+    "hf_in_pbe_effective": -5.79933261503921
+  },
+  "offset": -201.42512091721377,
+  "results": [
+    {
+      "eigenvalue": -5.799755172359955,
+      "metadata": [
+        {
+          "zne": {
+            "noise_amplification": {
+              "noise_amplifier": "<LocalFoldingAmplifier:{'gates_to_fold': None, 'noise_factor_relative_tolerance': 0.01, 'random_seed': None, 'sub_folding_option': 'from_first'}>",
+              "noise_factors": [
+                1,
+                3,
+                5
+              ],
+              "values": [
+                -5.503349699612333,
+                -4.963903442514638,
+                -4.360419559339889
+              ],
+              "variance": [
+                0.49858467892463043,
+                1.1766727614506547,
+                1.5979598214171205
+              ],
+              "shots": [
+                8192,
+                8192,
+                8192
+              ]
+            },
+            "extrapolation": {
+              "extrapolator": "LinearExtrapolator"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eigenvalue": -5.8026064038573,
+      "metadata": [
+        {
+          "zne": {
+            "noise_amplification": {
+              "noise_amplifier": "<LocalFoldingAmplifier:{'gates_to_fold': None, 'noise_factor_relative_tolerance': 0.01, 'random_seed': None, 'sub_folding_option': 'from_first'}>",
+              "noise_factors": [
+                1,
+                3,
+                5
+              ],
+              "values": [
+                -5.466761733776747,
+                -4.878558840572821,
+                -4.190172211020282
+              ],
+              "variance": [
+                0.5528886395255743,
+                1.2571934261504543,
+                1.659377733585193
+              ],
+              "shots": [
+                8192,
+                8192,
+                8192
+              ]
+            },
+            "extrapolation": {
+              "extrapolator": "LinearExtrapolator"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eigenvalue": -5.8854558415562055,
+      "metadata": [
+        {
+          "zne": {
+            "noise_amplification": {
+              "noise_amplifier": "<LocalFoldingAmplifier:{'gates_to_fold': None, 'noise_factor_relative_tolerance': 0.01, 'random_seed': None, 'sub_folding_option': 'from_first'}>",
+              "noise_factors": [
+                1,
+                3,
+                5
+              ],
+              "values": [
+                -5.449952954911118,
+                -4.6922887381287355,
+                -3.7986146535370042
+              ],
+              "variance": [
+                0.5675957051465967,
+                1.3781979840757208,
+                1.7378394187939001
+              ],
+              "shots": [
+                8192,
+                8192,
+                8192
+              ]
+            },
+            "extrapolation": {
+              "extrapolator": "LinearExtrapolator"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eigenvalue": -5.725208409703336,
+      "metadata": [
+        {
+          "zne": {
+            "noise_amplification": {
+              "noise_amplifier": "<LocalFoldingAmplifier:{'gates_to_fold': None, 'noise_factor_relative_tolerance': 0.01, 'random_seed': None, 'sub_folding_option': 'from_first'}>",
+              "noise_factors": [
+                1,
+                3,
+                5
+              ],
+              "values": [
+                -5.522342412487285,
+                -5.072128524356339,
+                -4.675292908664011
+              ],
+              "variance": [
+                0.47072670830077756,
+                1.0747326291027588,
+                1.4259976438655335
+              ],
+              "shots": [
+                8192,
+                8192,
+                8192
+              ]
+            },
+            "extrapolation": {
+              "extrapolator": "LinearExtrapolator"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eigenvalue": -5.724275699095592,
+      "metadata": [
+        {
+          "zne": {
+            "noise_amplification": {
+              "noise_amplifier": "<LocalFoldingAmplifier:{'gates_to_fold': None, 'noise_factor_relative_tolerance': 0.01, 'random_seed': None, 'sub_folding_option': 'from_first'}>",
+              "noise_factors": [
+                1,
+                3,
+                5
+              ],
+              "values": [
+                -5.4481159993564585,
+                -4.935717707582278,
+                -4.375414086563199
+              ],
+              "variance": [
+                0.5861369673294887,
+                1.2118620314119828,
+                1.5860685249558333
+              ],
+              "shots": [
+                8192,
+                8192,
+                8192
+              ]
+            },
+            "extrapolation": {
+              "extrapolator": "LinearExtrapolator"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eigenvalue": -5.599210048951356,
+      "metadata": [
+        {
+          "zne": {
+            "noise_amplification": {
+              "noise_amplifier": "<LocalFoldingAmplifier:{'gates_to_fold': None, 'noise_factor_relative_tolerance': 0.01, 'random_seed': None, 'sub_folding_option': 'from_first'}>",
+              "noise_factors": [
+                1,
+                3,
+                5
+              ],
+              "values": [
+                -5.397869697930739,
+                -4.9817175889603,
+                -4.581731168304912
+              ],
+              "variance": [
+                0.6603612715303007,
+                1.164097761442351,
+                1.5013729719218263
+              ],
+              "shots": [
+                8192,
+                8192,
+                8192
+              ]
+            },
+            "extrapolation": {
+              "extrapolator": "LinearExtrapolator"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eigenvalue": -5.600035120248683,
+      "metadata": [
+        {
+          "zne": {
+            "noise_amplification": {
+              "noise_amplifier": "<LocalFoldingAmplifier:{'gates_to_fold': None, 'noise_factor_relative_tolerance': 0.01, 'random_seed': None, 'sub_folding_option': 'from_first'}>",
+              "noise_factors": [
+                1,
+                3,
+                5
+              ],
+              "values": [
+                -5.386276140658918,
+                -4.965103503272792,
+                -4.536316479734581
+              ],
+              "variance": [
+                0.6692423069981949,
+                1.1784225690462977,
+                1.5095767647038811
+              ],
+              "shots": [
+                8192,
+                8192,
+                8192
+              ]
+            },
+            "extrapolation": {
+              "extrapolator": "LinearExtrapolator"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eigenvalue": -5.610096417236379,
+      "metadata": [
+        {
+          "zne": {
+            "noise_amplification": {
+              "noise_amplifier": "<LocalFoldingAmplifier:{'gates_to_fold': None, 'noise_factor_relative_tolerance': 0.01, 'random_seed': None, 'sub_folding_option': 'from_first'}>",
+              "noise_factors": [
+                1,
+                3,
+                5
+              ],
+              "values": [
+                -5.393352165975135,
+                -4.9901812106820165,
+                -4.55062919871366
+              ],
+              "variance": [
+                0.6622771492649108,
+                1.1676426470137435,
+                1.504019826816447
+              ],
+              "shots": [
+                8192,
+                8192,
+                8192
+              ]
+            },
+            "extrapolation": {
+              "extrapolator": "LinearExtrapolator"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eigenvalue": -5.638585486863501,
+      "metadata": [
+        {
+          "zne": {
+            "noise_amplification": {
+              "noise_amplifier": "<LocalFoldingAmplifier:{'gates_to_fold': None, 'noise_factor_relative_tolerance': 0.01, 'random_seed': None, 'sub_folding_option': 'from_first'}>",
+              "noise_factors": [
+                1,
+                3,
+                5
+              ],
+              "values": [
+                -5.407478123727343,
+                -4.95254592970788,
+                -4.4888746969849995
+              ],
+              "variance": [
+                0.6516030330153852,
+                1.1967617758302675,
+                1.526324065717497
+              ],
+              "shots": [
+                8192,
+                8192,
+                8192
+              ]
+            },
+            "extrapolation": {
+              "extrapolator": "LinearExtrapolator"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eigenvalue": -5.591355534071217,
+      "metadata": [
+        {
+          "zne": {
+            "noise_amplification": {
+              "noise_amplifier": "<LocalFoldingAmplifier:{'gates_to_fold': None, 'noise_factor_relative_tolerance': 0.01, 'random_seed': None, 'sub_folding_option': 'from_first'}>",
+              "noise_factors": [
+                1,
+                3,
+                5
+              ],
+              "values": [
+                -5.39791774169166,
+                -4.897772386062188,
+                -4.5335507554771475
+              ],
+              "variance": [
+                0.6640814972154226,
+                1.2335029068471286,
+                1.522915419396841
+              ],
+              "shots": [
+                8192,
+                8192,
+                8192
+              ]
+            },
+            "extrapolation": {
+              "extrapolator": "LinearExtrapolator"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "iterations": 1
+}

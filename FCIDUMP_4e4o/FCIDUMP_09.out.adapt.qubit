@@ -1,0 +1,1 @@
+{"evolution_ops": [["ZXZIYZ", 0.125], ["ZXXIYX", 0.125]], "init_state": "OPENQASM 2.0;\ninclude \"qelib1.inc\";\nqreg q[6];\nx q[0];\nx q[3];\n", "optimal_point": [-0.029028279310180462, 0.0], "eigenvalue_history": [-5.550015955466055, -5.5500159554660495]}

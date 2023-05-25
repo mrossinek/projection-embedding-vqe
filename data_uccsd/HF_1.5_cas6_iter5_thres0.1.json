@@ -1,0 +1,91 @@
+{
+  "references": {
+    "FCI": -9.40561040000734,
+    "UCCSD": -9.401380988664249,
+    "statevector": -9.347389671553083
+  },
+  "input": "N          2.87657       -0.35289       -0.00000\nC          1.47015        0.16863       -0.00000\nC          0.04191        0.68785       -0.00000\nH         -0.10221        1.33074       -0.90096\nH         -0.10221        1.33076        0.90095\nC         -1.00997       -0.48455        0.00001\nH         -0.84575       -1.12206       -0.89892\nH         -0.84574       -1.12205        0.89895\nC         -2.47618        0.06414        0.00001\nH         -3.20210       -0.77730        0.00001\nH         -2.66233        0.68754        0.90131\nH         -2.66233        0.68752       -0.90131\n",
+  "init_state": "OPENQASM 2.0;\ninclude \"qelib1.inc\";\nqreg q[10];\nx q[0];\nx q[2];\nx q[3];\nx q[4];\nx q[6];\n",
+  "evolution_ops": [
+    [
+      "IZXZIIIYZI",
+      0.125
+    ],
+    [
+      "IIYZIIZXZI",
+      0.125
+    ],
+    [
+      "IIXIIIIYZI",
+      -0.125
+    ],
+    [
+      "IZYIIIZXZI",
+      -0.125
+    ],
+    [
+      "IIYZIIIXII",
+      -0.125
+    ],
+    [
+      "IZXZIIZYII",
+      -0.125
+    ],
+    [
+      "IZYIIIIXII",
+      0.125
+    ],
+    [
+      "IIXIIIZYII",
+      0.125
+    ],
+    [
+      "ZXXXZIYXXZ",
+      0.125
+    ],
+    [
+      "IYXXZZXXXZ",
+      0.125
+    ],
+    [
+      "IYXYIIYXXZ",
+      0.125
+    ],
+    [
+      "ZXXYIZXXXZ",
+      -0.125
+    ],
+    [
+      "IYXXZIYXYI",
+      0.125
+    ],
+    [
+      "ZXXXZZXXYI",
+      -0.125
+    ],
+    [
+      "ZXXYIIYXYI",
+      -0.125
+    ],
+    [
+      "IYXYIZXXYI",
+      -0.125
+    ]
+  ],
+  "optimal_point": [
+    -0.2556753704501553,
+    -0.2552192931086508
+  ],
+  "eigenvalue_history": [
+    -9.28743606407937,
+    -9.347389671553083
+  ],
+  "cnots": 160,
+  "iterations": 16,
+  "depth": 223,
+  "constants": {
+    "nuclear_repulsion_energy": -207.23468648948196,
+    "ProjectionTransformer": 9.215910123031051
+  },
+  "offset": -198.0187763664509
+}
