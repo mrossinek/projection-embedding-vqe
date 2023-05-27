@@ -81,7 +81,7 @@
     -8.561382341139636
   ],
   "cnots": 160,
-  "iterations": 16,
+  "iterations": 2,
   "depth": 224,
   "constants": {
     "hf_in_pbe": -207.652569016422,
